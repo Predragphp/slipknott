@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.6.6
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: May 22, 2017 at 12:01 AM
+- Server version: 10.1.20-MariaDB
+- PHP Version: 7.0.8
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="id985425_slipknot" collation="utf8_unicode_ci" charset="utf8">
+            <pma:table name="album">
+                CREATE TABLE `album` (
+                  `id` int(5) unsigned NOT NULL AUTO_INCREMENT,
+                  `album` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+            </pma:table>
+            <pma:table name="band_mambers">
+                CREATE TABLE `band_mambers` (
+                  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                  `Corey Taylor` text NOT NULL,
+                  `Mick Thomson` text NOT NULL,
+                  `Jim Root` text NOT NULL,
+                  `Craig Jones` text NOT NULL,
+                  `Sid Wilson` text NOT NULL,
+                  `Shawn Crahan` text NOT NULL,
+                  `Chris Fehn` text NOT NULL,
+                  `Alessandro Venturella` text NOT NULL,
+                  `Jay Weinberg` text NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
+            </pma:table>
+            <pma:table name="homepage">
+                CREATE TABLE `homepage` (
+                  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                  `header` text NOT NULL,
+                  `nav` text NOT NULL,
+                  `main` text NOT NULL,
+                  `midle` text NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
+            </pma:table>
+            <pma:table name="songs">
+                CREATE TABLE `songs` (
+                  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                  `album` text COLLATE utf8_unicode_ci,
+                  `songs` text COLLATE utf8_unicode_ci,
+                  `path` text COLLATE utf8_unicode_ci,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=86 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'id985425_slipknot'
+    -->
+    <database name="id985425_slipknot">
+        <!-- Table album -->
+        <table name="album">
+            <column name="id">1</column>
+            <column name="album">Mate. Feed. Kill. Repeat</column>
+        </table>
+        <table name="album">
+            <column name="id">2</column>
+            <column name="album">Slipknot</column>
+        </table>
+        <table name="album">
+            <column name="id">3</column>
+            <column name="album">Iowa</column>
+        </table>
+        <table name="album">
+            <column name="id">4</column>
+            <column name="album">Vol. 3</column>
+        </table>
+        <table name="album">
+            <column name="id">5</column>
+            <column name="album">All Hope Is Gone</column>
+        </table>
+        <table name="album">
+            <column name="id">6</column>
+            <column name="album">.5: The Gray Chapter</column>
+        </table>
+        <!-- Table band_mambers -->
+        <table name="band_mambers">
+            <column name="id">1</column>
+            <column name="Corey Taylor">Corey Todd Taylor is an American musician, singer, songwriter, actor and author, best known as the lead singer and lyricist of the American heavy metal band Slipknot and the American hard rock and alternative metal band Stone Sour.
+
+Born	December 8, 1973
+Des Moines, Iowa, US
+
+Also known as	
+#8, The Great Big Mouth, The Sickness, The Boogie Knight, Neck, CMFT, Todd Tigger, 666, The Heretic, The Grim Chopper,</column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones"></column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">2</column>
+            <column name="Corey Taylor">Personal life
+
+Corey Todd Taylor was born in Des Moines, Iowa on December 8, 1973. Taylor was mostly raised by his mother in Waterloo, Iowa, a place described by Taylor as a &quot;hole in the ground with buildings around it.&quot; He is of German and Native American background from his father's side and Irish and Dutch on his mother's side. Taylor was raised by his single mother. He developed a fond feeling toward rock 'n' roll after his grandmother introduced him to Elvis Presley.
+
+In 1979, Taylor and his mother saw the science fiction series Buck Rogers in the 25th Century. Before the series, there was a trailer for the 1978 horror film Halloween. Taylor said this &quot;developed some sense of Slipknot in [himself].&quot; While Halloween introduced Taylor to masks and horror themes, Taylor's grandmother introduced him to rock music, showing him a collection of Elvis Presley records from the mid-fifties to late seventies. He especially found some songs like &quot;Teddy Bear&quot;, &quot;In the Ghetto&quot;, and &quot;Suspicious Minds&quot;, to appeal to his interests the most, describing them as &quot;good times.&quot; Taylor also began listening to Black Sabbath at a young age, beginning with their early work.
+
+Taylor, along with his mother and sister, lived at one point in an &quot;old dilapidated farmhouse,&quot; which on days in late autumn would &quot;look like Black Sabbath album covers.&quot; By age fifteen, Taylor had developed a drug addiction and had overdosed on cocaine twice. By this time, Taylor was living in Waterloo, Iowa, but later set out on his own and ended up at his grandmother's house in Iowa. She took legal custody of him and helped him buy musical equipment. When Taylor was eighteen, he left his grandmother's home and went to various places, Des Moines being a place to which he frequently returned.
+
+At age 17, when Taylor was living with his grandmother, he attempted suicide by way of overdose. Taylor's ex-girlfriend's mother drove him to the hospital in Des Moines and doctors were able to resuscitate him. He describes this as the lowest point in his life.
+
+Taylor and his father first met when Taylor was 30 years old, and now have a relationship, although he said their paths do not cross that often. On September 17, 2002, Taylor's then-fiancée, Scarlett, gave birth to their son Griffin Parker. Taylor also has a daughter named Angeline from an earlier relationship. Taylor and Scarlett married on March 11, 2004, and divorced three years later.
+
+Taylor has also had alcohol abuse problems, which his wife, Scarlett, helped him through as well as keeping him from committing suicide. In 2006, Taylor told MTV that he had attempted to jump off a balcony of the eighth floor of the Hyatt on Sunset Boulevard in 2003, but &quot;somehow [Scarlett] stopped me&quot;. This was later recanted by Taylor in an interview with Kerrang! radio and stated that it was, in fact, his friend Thom Hazaert who stopped him from jumping. Scarlett then told him that either he would have to get sober or she would annul their marriage.[18] Before Stone Sour started recording Come What(ever) May in January 2006, Taylor was sober.
+
+On August 3, 2009, he co-hosted the 2009 Kerrang! Awards alongside Scott Ian of Anthrax. The following year, they both once again co-hosted The Kerrang Awards, where Corey collected the K! Services to Metal award on behalf of Paul Gray who died after an accidental overdose of morphine and fentanyl.
+
+In early September 2010, Taylor announced that his book, Seven Deadly Sins: Settling The Argument Between Born Bad And Damaged Good would be released on July 12, 2011 through Da Capo Press.
+
+On November 13, 2009, Taylor married Stephanie Luby at the Palms Hotel in Las Vegas.</column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones"></column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">3</column>
+            <column name="Corey Taylor">Slipknot
+
+Taylor performing with Slipknot in 2011.
+In Des Moines, Iowa, Joey Jordison, Shawn Crahan, and Mick Thomson approached him asking him to join Slipknot. He agreed to go to one of their practices, and ended up singing in front of them. Of Slipknot's nine members, Corey was the sixth to join the band. Performing with Slipknot, he would also come to be known as &quot;Number Eight&quot;, being that the band follows a numbering scheme for its members, ranging from 0–8. According to Shawn Crahan, Corey wanted number eight, because it symbolizes infinity.
+
+Feeling he could expand more inside Slipknot than in Stone Sour, Taylor temporarily quit Stone Sour, even though they were recording an album with Sean McMahon. Taylor's first gig with Slipknot was on August 22, 1997, which according to band members did not go well. During his first gig, Taylor did not perform wearing a mask; however, for his second show nearly a month later, Corey wore a mask that resembles his debut album mask. Taylor's current mask was described by MTV's Chris Harris as looking &quot;as though it were made of dried, human flesh—like Leatherface, if only he used moisturizer.&quot;
+
+Taylor has recorded with Slipknot since the release of their second demo album, a self-titled demo used to promote the band to prospective labels and producers. As permanent vocalist, he recorded with Slipknot at Indigo Ranch in Malibu, California and released Slipknot, the band's debut album that peaked number one on the Top Heatseekers chart, went double platinum in the United States, and was included in the 2006 book 1001 Albums You Must Hear Before You Die. Taylor was accused of copyright infringement, regarding the lyrics of the song &quot;Purity&quot;, but no action was taken. Taylor began recording for their second studio album, Iowa, in 2001 at Sound City and Sound Image in Van Nuys, Los Angeles. It was released August 28, 2001 and peaked number one on the UK Albums Chart, as well as number three on the Billboard 200. While writing Vol. 3: (The Subliminal Verses), Taylor decided to write lyrics that would not warrant an explicit label. It peaked number two on the Billboard 200. All Hope Is Gone was the first Slipknot album to peak number one on the Billboard 200.</column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones"></column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">4</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson">Mickael Gordon &quot;Mick&quot; Thomson is an American heavy metal musician. Born in Des Moines, Iowa, he is best known as one of two guitarists in Slipknot, in which he is designated #7. Thomson originally met founding Slipknot members Anders Colsefni, Donnie Steele and Paul Gray through their mutual involvement in death metal band Body Pit, and later replaced Craig Jones in the group in 1996. Following the departure of Joey Jordison in 2013, Thomson is now the third longest-serving member of Slipknot.
+
+Born	November 3, 1973
+Des Moines, Iowa, USA
+
+Also known as:
+ #7, Mick, Mr. Seven, Number Seven
+</column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones"></column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">5</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson">Mick Thomson grew up having a &quot;fascination with death metal bands&quot;, including Morbid Angel, although he has also named The Beatles as one of his major musical influences. He began his career playing guitar in a number of local bands in his hometown of Des Moines, Iowa, most notably death metal outfit Body Pit, formed in 1993. Original Slipknot members Anders Colsefni (vocals), Donnie Steele (guitar) and Paul Gray (bass) were all fellow members of Body Pit during this period. In addition to performing in the band, Thomson gave guitar lessons to local students at Ye Olde Guitar Shop on 70th Street in Des Moines.</column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones"></column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">6</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson">His early career in music started in bands such as Body Pit, which included other members who were to be in Slipknot. He joined Slipknot under a recommendation from Joey Jordison, and replaced Craig Jones on guitar, who moved to samples/media. Although credited as being on the album, Mick had nothing to do with (early 1995 release) Mate.Feed.Kill.Repeat. He also denies the existence of Crowz, saying that &quot;the secret album everyone talks about is just a bunch of leaked demo tapes and stuff.&quot;
+Aside from Slipknot, he did a guitar solo for a Malevolent Creation song.</column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones"></column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">7</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson">Thomson joined Slipknot in the summer of 1996, replacing Craig Jones on guitar after he became the band's full-time sampler. The first Slipknot album on which Thomson performed was the 1999 self-titled debut. Speaking about the process of recording the album, he recalled in an interview for Revolver magazine that &quot;It was a nightmarish hell to do that fucking record&quot;, primarily due to the group's lack of money, poor quality of food, and other band members' bad habits.</column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones"></column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">8</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson">Upon joining the band, Thomson wore a hockey mask which he bought from a store, compared by author Joel McIver to that worn by Hannibal Lecter in the film The Silence of the Lambs. The guitarist's mask would remain much the same throughout his career, with only minor changes made for each album cycle, which he claimed was because he &quot;pretty much nailed it ... for being able to get across how I am&quot;. Speaking in 2008, Thomson played down the amount of consideration which went into the mask's design and meaning, proclaiming that &quot;I had my original latex hockey mask way back and then my leather one and I was using those designs and it morphed into what it is now. There isn't something crazy creative about it.&quot; Thomson also chose #7 in the band, claiming that it was his &quot;lucky number&quot;
+
+Outside of Slipknot, Thomson has collaborated with several other bands. Along with Slipknot bassist Paul Gray, he appeared on a Death tribute album organised by James Murphy. In 2007, he performed the second guitar solo on Malevolent Creation's &quot;Deliver My Enemy&quot;, released on Doomsday X. Speaking about his appearance on the song, which was engineered in part by Slipknot DJ Sid Wilson, Thomson claimed that he was &quot;proud beyond words to have been asked to be part of this recording&quot;.In 2011, he performed guest lead guitar on Necrophagia's album Deathtrip 69. Thomson is also featured in the music video for &quot;No Pity on the Ants&quot; by thrash metal band Lupara, directed by Frankie Nasso and released in 2007.</column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones"></column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">9</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones">Craig Michael Jones (born February 11, 1972), also known as 133 (or 133 mHz) , Pinhead, The Silent One, or by his number #5, is an American musician, best known as the sampler of the Grammy Award-winning band Slipknot. 
+
+Born	February 11, 1972
+
+Also known as:	
+
+
+#5, 133, 133 MHz, The Silent One, Spike-Head, Pin-head, The Killer</column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">10</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones">Jones was born in Des Moines, Iowa. He previously played in various local extreme metal bands, including Modifidious, before joining Slipknot in February 1996. He was the replacement for the band's original guitarist, Donnie Steele, who left during the recording of their first songs, put together into a demo called Mate.Feed.Kill.Repeat which the band themselves have stated is not an album, but a demo. Because the band was almost completed with the demo, he did not contribute to it, but he did receive credit for its sleeve concept and graphics in the liner notes. Before the year was over, Jones had been replaced by guitarist Mick Thomson, and he began to assume his role as the band's sampler and keyboardist.&lt;br&gt;&lt;br&gt;
+Jones is the only member of the band who is not interviewed completely unmasked on Voliminal: Inside the Nine. While he does not wear a mask during the interview, his face remains obstructed by a constant blur. Also, he does not speak during the segment featured on the film, nor during the extended version of the footage featured on user-submitted content websites such as YouTube (originally from the Outside The Nine released DVD: Fan Club Propaganda Reel 1). He also speaks for 2 seconds at the beginning of Welcome To Our Neighborhood. He says,&quot;133, number 5, sampling.&quot;</column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">11</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones">Jones is the only member of the band who is not interviewed completely unmasked on Voliminal: Inside the Nine. While he does not wear a mask during the interview, his face remains obstructed by a constant blur. Also, he does not speak during the segment featured on the film, nor during the extended version of the footage featured on user-submitted content websites such as YouTube (originally from the Outside The Nine released DVD: Fan Club Propaganda Reel 1). He also speaks for 2 seconds at the beginning of Welcome To Our Neighborhood. He says,&quot;133, number 5, sampling.&quot;</column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">12</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones">His background is unquestionably the most elusive of any other member of Slipknot, so much that he has been known to keep silence throughout even a series of questions. That is why he earned his second nickname, The Silent One.This is not to say he has never spoken outside the confines of the band, however. In fact, Jones has engaged an interview with Cakewalk regarding their equipment, which he prefers when performing Sampling. He begins most interviews with the zipper covering his mouth opened, and closes the zipper before making any reply to the questions asked. Jones prompted a burst of complaint letters when, another time he broke his silence during an interview, he was quoted as having made the sole statement that, &quot;If I wasn't in this band, I'd probably be out killing people!&quot; He has answered this question also, &quot;If I wasn't in the band today, I'd be driving forklifts in a warehouse all day long.&quot;</column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">13</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones">Former Slipknot vocalist Anders Colsefini has implied that Jones is a misanthrope. While expressing distaste for Jones' behavior, Colsefini revealed that Jones was in fact the inspiration for the song &quot;Killers Are Quiet&quot;. However a close friend of the band at the time, Frank Plumley, is credited for the song's fitting title. Colsefini provided further insight into Jones' personality when he claimed that, &quot;Computers are Craig's best friend.&quot; According to Music producer Ross Robinson, Jones was disturbingly quiet during their studio sessions.</column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">14</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones">However, contrary to popular belief, Jones has been known to be very open and somewhat talkative with fans after Slipknot's performances. This may suggest that his dangerously taciturn behavior is an affectation or exaggeration for the sake of publicity and/or intrigue. Some have commented that the &quot;serial killer&quot; comments he has made may be his attempt at dark humor, in addition to his preference to speak during interviews exclusively with the zipper covering his mouth closed. However he has done two online text interviews after the release of the Slipknot (album), and readers of the interview have noticed that online he is a lot less hostile than he lets on. In the video of the making of Sulfur Craig Jones is actually shown talking to the camera.</column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">15</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root"></column>
+            <column name="Craig Jones">On Nine: The Making of All Hope Is Gone, the DVD that comes with the special edition of All Hope Is Gone, Craig is the only member of the band to have his face pixelation while everyone else appears with their face clear and uncensored.</column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">16</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root">James Donald &quot;Jim&quot; Root,  is an American musician known for being the rhythm guitarist for the heavy metal band Slipknot, and the former lead guitarist for alternative metal band Stone Sour</column>
+            <column name="Craig Jones"></column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">17</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root">born October 2, 1971
+        also known by his number #4,The Peach, Mr. Bigs, The Jester, Stuperbee, The Paint Face</column>
+            <column name="Craig Jones"></column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">18</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root">James Root began performing with the thrash metal band Atomic Opera from Iowa in the early 90s, not to be confused with the hard rock band Atomic Opera from Houston, Texas. Soon after they split up he went on to perform in bands such as DeadFront and Stone Sour; the latter which he joined in 1995, and returned to along with vocalist Corey Taylor, during its revival in 2002, and left in 2014. Prior to joining Slipknot, he worked as a screenprinter, waiter, and busboy.</column>
+            <column name="Craig Jones"></column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">19</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root">Root joined Slipknot in January 1999, replacing their original guitarist, Josh Brainard, who left the band during the recording of their self-titled album, reportedly after having fulfilled his recording duties. In fact, the only two songs Root recorded during the album's sessions were &quot;Purity&quot; and &quot;Me Inside&quot;, the former being featured on the short-lived first pressing of Slipknot as well as the 10th Anniversary Edition, and the latter being its replacement. Despite this, the song has become a staple for most of the band's live performances. Slipknot vocalist Corey Taylor invited Root to join the band based on Taylor's past experiences working with him in Stone Sour.</column>
+            <column name="Craig Jones"></column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <table name="band_mambers">
+            <column name="id">20</column>
+            <column name="Corey Taylor"></column>
+            <column name="Mick Thomson"></column>
+            <column name="Jim Root">Although filling in the spot of rhythm guitar in 1999, Root is considered to be one of the band's main songwriters and has written lead guitar parts for Slipknot's later albums particularly on All Hope is Gone. Root typically performed lead guitar in Stone Sour, although he sometimes played rhythm. He has spoken of both bands' guitar style as being twin guitar: &quot;In both bands, I fulfill both roles. In Slipknot, Mick [Thomson] has some solos, and in Stone Sour, Josh [Rand] has some solos.&quot; During the recording of Stone Sour's Audio Secrecy, he and Rand recorded their parts simultaneously.</column>
+            <column name="Craig Jones"></column>
+            <column name="Sid Wilson"></column>
+            <column name="Shawn Crahan"></column>
+            <column name="Chris Fehn"></column>
+            <column name="Alessandro Venturella"></column>
+            <column name="Jay Weinberg"></column>
+        </table>
+        <!-- Table homepage -->
+        <table name="homepage">
+            <column name="id">1</column>
+            <column name="header"></column>
+            <column name="nav">LIVE VIDEOS
+ALBUMS
+BAND MEMBERS
+NEXT SHOW
+TICKETS</column>
+            <column name="main">Slipknot is an American heavy metal band from Des Moines, Iowa. The band was founded in September 1995 by percussionist Shawn Crahan and bassist Paul Gray. After several lineup changes in its early years, the band settled on nine members for more than a decade: Corey Taylor, Mick Thomson, Jim Root, Paul Gray, Craig Jones, Sid Wilson, Shawn Crahan, Chris Fehn and Joey Jordison. Gray died on May 24, 2010, and was replaced from 2011–2014 by former guitarist Donnie Steele. Jordison left the band on December 12, 2013. Steele left during the recording sessions for .5: The Gray Chapter. The band is now touring with replacement musicians Alessandro Venturella on bass and Jay Weinberg on drums. After the departure of Jordison, as of December 2015 the only founding member in the current lineup is percussionist Crahan; the other remaining members of Slipknot have been members since the release of the band's 1999 eponymous debut album</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">2</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">Slipknot is well known for its attention-grabbing image, aggressive style of music, and energetic and chaotic live shows. The band rapidly rose to success following the release of their eponymous debut album in 1999. The 2001 follow-up album, Iowa, although darker in tone, made the band more popular. After a brief hiatus, Slipknot returned in 2004 with Vol. 3: (The Subliminal Verses), before going on another hiatus and returning in 2008 with its fourth album, All Hope Is Gone, which debuted at number one on the Billboard 200 chart. After another long hiatus, Slipknot released its fifth studio album, .5: The Gray Chapter, in 2014. The band has released a live album titled 9.0: Live, a compilation album titled Antennas to Hell, and four live DVDs. In 2015, Slipknot headlined the Download Festival in the UK for the third time</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">3</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main"></column>
+            <column name="midle">Members And Positions
+Corey Taylor (Singer)
+Mick Thomson (Guitarists)
+Jim Root (Guitarists)
+Craig Jones (Sampler - keyboards)
+Sid Wilson (DJ - Starscream)
+Shawn Crahan (Vocals - Percussion)
+Chris Fehn (Vocals - Percussion)
+Alessandro Venturella (Bass)
+Jay Weinberg (Drummer)</column>
+        </table>
+        <table name="homepage">
+            <column name="id">4</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main"></column>
+            <column name="midle">Numbers
+Corey Taylor (8)
+Mick Thomson (7)
+Jim Root (4)
+Craig Jones (5)
+Sid Wilson (0)
+Shawn Crahan (6)
+Chris Fehn (3)
+Alessandro Venturella
+Jay Weinberg</column>
+        </table>
+        <table name="homepage">
+            <column name="id">5</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main"></column>
+            <column name="midle">Former members
+()Anders Colsefni(Singer)
+(3)Greg Welts(Percussionist)
+(3)Brandon Darner(Percussionist)
+()Josh Brainard(Guitarists)
+(2)Paul Gray(Bass)
+(1)Joey Jordison(Drummer)
+()Donnie Steele(Bass)
+()Quan Nong(singer)
+()Patrick Neuwirth(guitar)</column>
+        </table>
+        <table name="homepage">
+            <column name="id">6</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">In the years before Slipknot formed, a state of shifting band membership existed throughout the metal scene in Des Moines, Iowa. In 1991, the biggest metal band in Des Moines was Atomic Opera, with Jim Root on guitar. Drummer Joey Jordison founded a thrash metal band called Modifidious, playing at a club called Runway. Modifidious opened for Atomic Opera on December 1, 1991, at the Runway, after which their guitarist left for the more successful Atomic Opera. Jordison replaced him with local guitarist Craig Jones. Drummer Shawn Crahan formed another Des Moines band called Heads on the Wall, playing funk metal cover songs at clubs and releasing a demo tape in July 1992. A fourth Des Moines band called Vexx played death metal with Anders Colsefni on drums, Paul Gray on bass, and Josh Brainard on guitar and vocals. Colsefni later took over vocal duties, but Vexx never recorded. During this time, Crahan often went to the Runway on Sundays when the club opened to all ages, where he met other young musicians with whom he could jam. By March 1993, Crahan was jamming with vocalist Colsefni, bassist Gray and guitarist Pat Neuwirth, writing and playing songs in Gray's basement, discussing possible band names such as Pull My Finger, but never making a final decision. One of the songs they recorded was titled &quot;Slipknot&quot;; another was titled &quot;Painface&quot;, which Colsefni later used to name his band Painface</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">7</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">In 1993, a new band called Inveigh Catharsis formed in Des Moines, with Gray on bass, Brainard on guitar and Colsefni on drums. Jordison jammed occasionally with this group. Brainard eventually left to join Jordison and Jones in Modifidious, participating in demo recordings at the end of '93 and early in '94. During 1994 Modifidious sometimes played the same shows as Crahan's Heads on the Wall band. Gray formed a death metal band called Body Pit, soon becoming popular in the local scene. Modifidious stopped playing in the wake of death metal's increasing pull. Gray failed to get Jordison to join Body Pit, but soon after he recruited local guitar teacher Mick Thomson, the band broke up.</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">8</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">In September 1995, Crahan and Gray started a band named the Pale Ones. The lineup was made up of friends who met through the local music scene, including vocalist Colsefni and guitarist Donnie Steele.Not long after their inception, Gray invited Jordison to a rehearsal because the band was interested in experimenting with additional drum elements. Jordison subsequently joined the band as their main drummer, moving Crahan to custom percussion.Furthermore, Colsefni also took up custom percussion while remaining the band's vocalist. The band then decided to invite Brainard as their second guitarist, bringing their lineup to six members. On December 4, the band made their live debut; playing a benefit show using the name Meld.</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">9</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">Much of the band's early development was retrospectively attributed to late-night planning sessions between Gray, Crahan and Jordison at a Sinclair gas station where Jordison worked nights. It was there, in late 1995, that Jordison suggested changing the band name to Slipknot after their song of the same name. In December, Slipknot began recording material at SR Audio, a studio in the band's hometown. Without a recording budget, the band was forced to self-finance the project, the costs of which came to an estimated $40,000. In February 1996, guitarist Donnie Steele decided to leave Slipknot due to his Christian beliefs. When questioned in 1999 about Steele's departure, Jordison explained: &quot;We were prepared to keep him on, but he didn't want to stay.&quot; During the mixing stages of their project at SR Audio, Craig Jones was recruited as Steele's replacement on guitar. However, throughout their time in the studio, the band were adding samples to their recordings but could not produce these sounds live. Subsequently, Jones became the band's sampler and Mick Thomson was brought in as the replacement guitarist After a complicated time with mixing and mastering, the band self-released Mate. Feed. Kill. Repeat. on Halloween, October 31, 1996.</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">10</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">Distribution for the demo was initially left to the band and their producer Sean McMahon, before it was handed over to the distribution company Ismist in early 1997. Slipknot received a small amount of airplay on local radio stations off the back of the demo. However, it did not lead to any kind of interest from record labels, so the band returned to the studio to develop new material. It was at this time that the band sought more melodic vocals for their music. As a result, Corey Taylor was recruited from fellow Des Moines band Stone Sour; this moved Colsefni to backing vocals and percussion. While working in the studio, Slipknot continued to do local shows, during one of which in September 1997, Colsefni announced on stage that he was leaving the band. The gap on percussion was filled by Greg Welts, who was affectionately known as Cuddles. In early 1998, Slipknot produced a second demo featuring five tracks exclusively for record labels. The band began to receive a lot of attention from record labels, and in February 1998, producer Ross Robinson offered to produce their debut album after attending rehearsals in Des Moines. Soon after, DJ Sid Wilson was recruited as the band's ninth member after showing great interest and impressing band members. In late June, Slipknot received a $500,000, seven-album deal, from Roadrunner Records; the band signed the deal publicly on July 8, 1998. Two days prior to this, Welts was fired from the band, something which Slipknot refuse to comment on. Welts was replaced by Brandon Darner, who departed from the band shortly after joining</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">11</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">Slipknot and emergence (1998–2000)&lt;br&gt;
+			Their debut album was much faster than their demo album Mate. Feed. Kill. Repeat. and, with nine members, their sound had changed drastically.
+			Problems playing this file? See media help.
+			Chris Fehn was brought in to replace Darner on percussion before Slipknot traveled to Malibu, California, to work on their debut album in September 1998. Partway through the recording process of the album, Slipknot returned to Des Moines for the Christmas period. During that period, guitarist Brainard decided to leave the band. Brainard said, &quot;some decisions were made that I wasn't particularly happy with&quot;. Slipknot later recruited Jim Root to complete their lineup and the band returned to Malibu to continue work on the album. Work on the album concluded in early 1999, allowing the band to go on their first tour as part of the Ozzfest lineup in 1999. Ozzfest greatly increased Slipknot's audience, furthering the band's success with their self-titled album that was released on June 29, 1999. Slipknot released its first home video Welcome to Our Neighborhood, which was directed by Thomas Mignone, and the singles &quot;Wait and Bleed&quot; and &quot;Spit It Out&quot;, which were also directed by Mignone. The singles received some airplay, but Slipknot quickly developed a large following, mainly from touring and word of mouth. The band toured several countries throughout 1999 and 2000 in support of the album. In early 2000, Slipknot was certified platinum; a first for an album released by Roadrunner Records.</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">12</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">Iowa and hiatus (2001–03)
+			Anticipation for Slipknot's second album was intense. In early 2001, the band began recording the second album at Sound City and Sound Image studios in Los Angeles. Around this time, conflicts arose between band members due to extensive touring and recording schedules. Recording of their second album ended in February 2001 and the band embarked on their Iowa World Tour. Entitled Iowa, Slipknot's second album was released on August 28, 2001; it peaked at number three on the Billboard album charts and at number one on the UK album chart. The album produced three singles; &quot;The Heretic Anthem&quot; (promotional single), &quot;Left Behind&quot;, and &quot;My Plague&quot;, which appeared on the soundtrack for the film Resident Evil. In 2002, Slipknot appeared in Rollerball (2002), performing the song &quot;I Am Hated&quot; in a scene. The release and intense promotion of the album resulted in sold-out shows in large arenas in several countries.</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">13</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">In mid-2002, Slipknot went on hiatus because of internal conflicts. This temporary split allowed several band members to focus on various side projects. Vocalist Taylor and guitarist Root revived their band Stone Sour, drummer Jordison created Murderdolls with Wednesday 13 on vocals, percussionist Crahan founded To My Surprise and DJ Wilson went solo as DJ Starscream. For a while, the future of Slipknot was uncertain and there was much speculation about whether there would be a third album, or if the split would become permanent. Despite this, on November 22, 2002, Slipknot released their second DVD, Disasterpieces.</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">14</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">Vol. 3: (The Subliminal Verses) and second hiatus (2003–2007)
+			After several delays, Slipknot moved into The Mansion in Los Angeles, California, in mid-2003 to work on their third album alongside producer Rick Rubin. By early 2004, work on the album had finished and the band began The Subliminal Verses World Tour with their appearance on the Jägermeister Music Tour in March 2004. Vol. 3: (The Subliminal Verses) was released on May 24, 2004; it peaked at number two on the Billboard album charts. The album produced six singles; &quot;Duality&quot;, &quot;Vermilion&quot;, &quot;Vermilion, Pt. 2&quot;, &quot;Before I Forget&quot;, &quot;The Nameless&quot;, and The Blister Exists. Slipknot recorded its first live album, 9.0: Live, while touring in support of the band's third album. Released on November 1, 2005 9.0: Live peaked at number 17 on the Billboard album charts. Touring in support of Vol. 3: (The Subliminal Verses) continued through 2004 and up to the end of 2005 before Slipknot went on hiatus for the second time.</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">15</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main"></column>
+            <column name="midle">In 2005, several members of Slipknot were involved in Roadrunner United: The All-Star Sessions, an collaborative album recorded by artists signed to Roadrunner Records for the labels 25th anniversary. 2006 saw Slipknot win their first Grammy Award, picking up the Best Metal Performance award for the single &quot;Before I Forget&quot;. The single went on to be featured on the setlist of Guitar Hero III: Legends of Rock. On December 5, 2006, Slipknot released its third DVD Voliminal: Inside the Nine. While Slipknot was on hiatus, several band members again focused their attentions on side projects; vocalist Taylor and guitarist Root returned to Stone Sour, drummer Jordison toured with several bands and produced 3 Inches of Blood's third album Fire Up the Blades, Crahan founded Dirty Little Rabbits and Wilson returned as DJ Starscream once again.</column>
+        </table>
+        <table name="homepage">
+            <column name="id">16</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">All Hope Is Gone, third hiatus and Gray's death (2008–2010)
+			Preparation for Slipknot's fourth album began towards the end of 2007; work began at Sound Farm Studio in Jamaica, Iowa, with producer Dave Fortman in February 2008. The album was finished in June, and the band the All Hope Is Gone World Tour on July 9, 2008. Slipknot's fourth album, All Hope Is Gone, was released on August 20, 2008, debuting at number one on the Billboard albums chart.[50] The album produced five singles; &quot;All Hope Is Gone&quot;, &quot;Psychosocial&quot;, &quot;Dead Memories&quot;, &quot;Sulfur&quot; and &quot;Snuff&quot;. 2009 marked the 10th anniversary of Slipknot's debut album; to commemorate the event, the band released a special edition version of Slipknot on September 9, 2009. The band toured in support of the album throughout 2008 and continued until October 31, 2009, resulting in Slipknot's third hiatus.</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">17</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">Vocalist Corey Taylor, on the death of Paul Gray.During the hiatus, several band members focused on respective side projects; Taylor founded Junk Beer Kidnap Band and returned to Stone Sour with guitarist Root; Crahan continued working with his band Dirty Little Rabbits; and drummer Jordison returned with his band Murderdolls and became the new permanent drummer of Rob Zombie. Percussionist Fehn is now a full-time bassist with metalcore band Will Haven and Sid Wilson founded the eponymous band Sid.</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">18</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">In 2010, Gray was planning to tour with the supergroup, Hail!, but on May 24, 2010, he was found dead in a Urbandale, Iowa hotel room. Circumstances surrounding his death at the time were not immediately known; an autopsy suspected his death was not intentional but did not reveal the cause. The day after his death, the remaining eight members of the band held a live, unmasked, press conference alongside Gray's widow and brother. On June 21, the cause of death was confirmed as an accidental overdose of morphine and synthetic morphine substitute fentanyl.</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">19</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">The band was hesitant to comment on the future of Slipknot. The members made conflicting statements in interviews; drummer Jordison told The Pulse of Radio &quot;there is another Slipknot record already kinda in the making&quot;. Vocalist Taylor told FMQB Productions' he was &quot;very conflicted about whether or not [he wants] to do anything with Slipknot&quot;. The band released their fourth video album (sic)nesses on September 28, 2010; it debuted at number one on the Billboard Top Music Video Charts. The DVD features Slipknot's entire live performance at the 2009 Download Festival and a 45-minute film documenting their tour in support of All Hope Is Gone, and served as a tribute to Paul Gray</column>
+            <column name="midle"></column>
+        </table>
+        <table name="homepage">
+            <column name="id">20</column>
+            <column name="header"></column>
+            <column name="nav"></column>
+            <column name="main">Legacy
+			Slipknot is known for its chaotic, energetic live shows that contributed to the band's success. During performances, most of the band's members headbang, stage dive, and fight. The band's early performances included extreme acts such as stage dives from high balconies and band members setting each other on fire. Clown was known to go into the crowd and tie people up with the microphone cord. In recent years[clarification needed], they tended to refrain from acts this extreme. Former bassist Paul Gray said this was due to receiving lawsuits and to avoid harming other people, and that it was a &quot;better move&quot; for the longevity of the band. Along with the energetic and unpredictable performances, Slipknot often use elaborate stage setups that use pyrotechnics, elevated stage areas, hydraulic drum risers, and computer screens. Reviewing a Slipknot performance, Alistair Lawrence of Kerrang! said, &quot;the choreographed chaos is too multi-faceted to fully describe&quot;. and NME described one Slipknot show as &quot;a scene of chaos&quot;.</column>
+            <column name="midle"></column>
+        </table>
+        <!-- Table songs -->
+        <table name="songs">
+            <column name="id">1</column>
+            <column name="album">Mate. Feed. Kill. Repeat.</column>
+            <column name="songs">Slipknot
+</column>
+            <column name="path">&lt;source src='songs/mfkr/1.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">2</column>
+            <column name="album">Mate. Feed. Kill. Repeat.</column>
+            <column name="songs">Gently</column>
+            <column name="path">&lt;source src='songs/mfkr/2.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">3</column>
+            <column name="album">Mate. Feed. Kill. Repeat.</column>
+            <column name="songs">do nothing / bitchslap</column>
+            <column name="path">&lt;source src='songs/mfkr/3.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">4</column>
+            <column name="album">Mate. Feed. Kill. Repeat.</column>
+            <column name="songs">only one</column>
+            <column name="path">&lt;source src='songs/mfkr/4.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">5</column>
+            <column name="album">Mate. Feed. Kill. Repeat.</column>
+            <column name="songs">tattered &amp; torn</column>
+            <column name="path">&lt;source src='songs/mfkr/5.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">6</column>
+            <column name="album">Mate. Feed. Kill. Repeat.</column>
+            <column name="songs">confessions</column>
+            <column name="path">&lt;source src='songs/mfkr/6.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">7</column>
+            <column name="album">Mate. Feed. Kill. Repeat.</column>
+            <column name="songs"> feel</column>
+            <column name="path">&lt;source src='songs/mfkr//7.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">8</column>
+            <column name="album">Mate. Feed. Kill. Repeat.</column>
+            <column name="songs">killers are quiet / dogfish rising
+</column>
+            <column name="path">&lt;source src='songs/mfkr/8.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">9</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">742617000027
+</column>
+            <column name="path">&lt;source src='songs/Slipknot/1.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">10</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">(Sic)
+</column>
+            <column name="path">&lt;source src='songs/Slipknot/2.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">11</column>
+            <column name="album">Slipknot</column>
+            <column name="songs"> Eyeless</column>
+            <column name="path">&lt;source src='songs/Slipknot/3.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">12</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">Wait and Bleed
+</column>
+            <column name="path">&lt;source src='songs/Slipknot/4.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">13</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">Surfacing
+</column>
+            <column name="path">&lt;source src='songs/Slipknot/5.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">14</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">Spit It Out
+</column>
+            <column name="path">&lt;source src='songs/Slipknot/6.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">15</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">Tattered &amp; Torn
+</column>
+            <column name="path">&lt;source src='songs/Slipknot/7.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">16</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">Frail Limb Nursery/Purity
+</column>
+            <column name="path">&lt;source src='songs/Slipknot/8.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">17</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">Me Inside 
+</column>
+            <column name="path">&lt;source src='songs/Slipknot/9.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">18</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">Prosthetics</column>
+            <column name="path">&lt;source src='songs/Slipknot/10.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">19</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">No Life</column>
+            <column name="path">&lt;source src='songs/Slipknot/11.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">20</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">Diluted</column>
+            <column name="path">&lt;source src='songs/Slipknot/12.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">21</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">Only One</column>
+            <column name="path">&lt;source src='songs/Slipknot/13.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">22</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">Scissors</column>
+            <column name="path">&lt;source src='songs/Slipknot/14.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">23</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">Liberate</column>
+            <column name="path">&lt;source src='songs/Slipknot/15.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">24</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">Get This</column>
+            <column name="path">&lt;source src='songs/Slipknot/16.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">25</column>
+            <column name="album">Slipknot</column>
+            <column name="songs">Interloper (demo)
+</column>
+            <column name="path">&lt;source src='songs/Slipknot/17.mp3' type='audio/mpeg'&gt;
+</column>
+        </table>
+        <table name="songs">
+            <column name="id">26</column>
+            <column name="album">Iowa</column>
+            <column name="songs">(515)
+</column>
+            <column name="path">&lt;source src='songs/iowa/1.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">27</column>
+            <column name="album">Iowa</column>
+            <column name="songs">People = Shit
+</column>
+            <column name="path">&lt;source src='songs/iowa/2.mp3' type='audio/mpeg'&gt;
+</column>
+        </table>
+        <table name="songs">
+            <column name="id">28</column>
+            <column name="album">Iowa</column>
+            <column name="songs">Disasterpiece
+</column>
+            <column name="path">&lt;source src='songs/iowa/3.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">29</column>
+            <column name="album">Iowa</column>
+            <column name="songs">My Plague
+
+</column>
+            <column name="path">&lt;source src='songs/iowa/4.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">30</column>
+            <column name="album">Iowa</column>
+            <column name="songs">Everything Ends</column>
+            <column name="path">&lt;source src='songs/iowa/5.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">31</column>
+            <column name="album">Iowa</column>
+            <column name="songs">The Heretic Anthem
+</column>
+            <column name="path">&lt;source src='songs/iowa/6.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">32</column>
+            <column name="album">Iowa</column>
+            <column name="songs">Gently
+</column>
+            <column name="path">&lt;source src='songs/iowa/7.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">33</column>
+            <column name="album">Iowa</column>
+            <column name="songs">Left Behind</column>
+            <column name="path">&lt;source src='songs/iowa/8.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">34</column>
+            <column name="album">Iowa</column>
+            <column name="songs">The Shape</column>
+            <column name="path">&lt;source src='songs/iowa/9.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">35</column>
+            <column name="album">Iowa</column>
+            <column name="songs">I Am Hated
+</column>
+            <column name="path">&lt;source src='songs/iowa/10.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">36</column>
+            <column name="album">Iowa</column>
+            <column name="songs">Skin Ticket
+</column>
+            <column name="path">&lt;source src='songs/iowa/11.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">37</column>
+            <column name="album">Iowa</column>
+            <column name="songs">New Abortion
+
+</column>
+            <column name="path">&lt;source src='songs/iowa/12.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">38</column>
+            <column name="album">Iowa</column>
+            <column name="songs">Metabolic
+
+</column>
+            <column name="path">&lt;source src='songs/iowa/13.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">39</column>
+            <column name="album">Iowa</column>
+            <column name="songs">Iowa
+</column>
+            <column name="path">&lt;source src='songs/iowa/14.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">40</column>
+            <column name="album">Vol. 3</column>
+            <column name="songs">Prelude
+</column>
+            <column name="path">&lt;source src='songs/Vol.3/1.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">41</column>
+            <column name="album">Vol. 3</column>
+            <column name="songs">The Blister Exists
+</column>
+            <column name="path">&lt;source src='songs/Vol.3/2.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">42</column>
+            <column name="album">Vol. 3</column>
+            <column name="songs">Three Nil
+</column>
+            <column name="path">&lt;source src='songs/Vol.3/3.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">43</column>
+            <column name="album">Vol. 3</column>
+            <column name="songs">Duality
+</column>
+            <column name="path">&lt;source src='songs/Vol.3/4.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">44</column>
+            <column name="album">Vol. 3</column>
+            <column name="songs">Opium of the People </column>
+            <column name="path">&lt;source src='songs/Vol.3/5.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">45</column>
+            <column name="album">Vol. 3</column>
+            <column name="songs">Circle
+</column>
+            <column name="path">&lt;source src='songs/Vol.3/6.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">46</column>
+            <column name="album">Vol. 3</column>
+            <column name="songs">Welcome
+</column>
+            <column name="path">&lt;source src='songs/Vol.3/7.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">47</column>
+            <column name="album">Vol. 3</column>
+            <column name="songs">Vermilion
+
+</column>
+            <column name="path">&lt;source src='songs/Vol.3/8.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">48</column>
+            <column name="album">Vol. 3</column>
+            <column name="songs">Pulse of the Maggots</column>
+            <column name="path">&lt;source src='songs/Vol.3/9.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">49</column>
+            <column name="album">Vol. 3</column>
+            <column name="songs">Before I Forget
+</column>
+            <column name="path">&lt;source src='songs/Vol.3/10.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">50</column>
+            <column name="album">Vol. 3</column>
+            <column name="songs">Vermilion, Pt. 2
+</column>
+            <column name="path">&lt;source src='songs/Vol.3/11.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">51</column>
+            <column name="album">Vol. 3</column>
+            <column name="songs">The Nameless
+</column>
+            <column name="path">&lt;source src='songs/Vol.3/12.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">52</column>
+            <column name="album">Vol. 3</column>
+            <column name="songs">The Virus of Life
+</column>
+            <column name="path">&lt;source src='songs/Vol.3/13.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">53</column>
+            <column name="album">Vol. 3</column>
+            <column name="songs">Danger - Keep Away
+
+</column>
+            <column name="path">&lt;source src='songs/Vol.3/14.mp3' type='audio/mpeg'&gt;
+</column>
+        </table>
+        <table name="songs">
+            <column name="id">54</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">.execute.</column>
+            <column name="path">&lt;source src='songs/ahig/1.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">55</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">Gematria (The Killing Name)</column>
+            <column name="path">&lt;source src='songs/ahig/2.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">56</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">Sulfur</column>
+            <column name="path">&lt;source src='songs/ahig/3.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">57</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">Psychosocial</column>
+            <column name="path">&lt;source src='songs/ahig/4.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">58</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">Dead Memories</column>
+            <column name="path">&lt;source src='songs/ahig/5.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">59</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">Vendetta</column>
+            <column name="path">&lt;source src='songs/ahig/6.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">60</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">Butcher's Hook</column>
+            <column name="path">&lt;source src='songs/ahig/7.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">61</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">Gehenna</column>
+            <column name="path">&lt;source src='songs/ahig/8.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">62</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">This Cold Black</column>
+            <column name="path">&lt;source src='songs/ahig/9.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">63</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">Wherein Lies Continue</column>
+            <column name="path">&lt;source src='songs/ahig/10.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">64</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">Snuff</column>
+            <column name="path">&lt;source src='songs/ahig/11.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">65</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">All Hope Is Gone</column>
+            <column name="path">&lt;source src='songs/ahig/12.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">66</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">Child of Burning Time</column>
+            <column name="path">&lt;source src='songs/ahig/13.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">67</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">Vermilion Pt. 2 (Bloodstone Mix)</column>
+            <column name="path">&lt;source src='songs/ahig/14.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">68</column>
+            <column name="album">All Hope Is Gone</column>
+            <column name="songs">'til We Die</column>
+            <column name="path">&lt;source src='songs/ahig/15.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">70</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">XIX</column>
+            <column name="path">&lt;source src='songs/.5/1.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">71</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">Sarcastrophe</column>
+            <column name="path">&lt;source src='songs/.5/2.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">72</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">AOV [Explicit]</column>
+            <column name="path">&lt;source src='songs/.5/3.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">73</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">The Devil In I</column>
+            <column name="path">&lt;source src='songs/.5/4.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">74</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">Killpop [Explicit]</column>
+            <column name="path">&lt;source src='songs/.5/5.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">75</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">Skeptic</column>
+            <column name="path">&lt;source src='songs/.5/6.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">76</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">Lech</column>
+            <column name="path">&lt;source src='songs/.5/7.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">77</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">Goodbye</column>
+            <column name="path">&lt;source src='songs/.5/8.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">78</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">Nomadic [Explicit]</column>
+            <column name="path">&lt;source src='songs/.5/9.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">79</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">The One That Kills The Least</column>
+            <column name="path">&lt;source src='songs/.5/10.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">80</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">Custer</column>
+            <column name="path">&lt;source src='songs/.5/11.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">81</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">Be Prepared For Hell</column>
+            <column name="path">&lt;source src='songs/.5/12.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">82</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">The Negative One [Explicit]</column>
+            <column name="path">&lt;source src='songs/.5/13.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">83</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">If Rain Is What You Want</column>
+            <column name="path">&lt;source src='songs/.5/14.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">84</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">Override</column>
+            <column name="path">&lt;source src='songs/.5/15.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+        <table name="songs">
+            <column name="id">85</column>
+            <column name="album">.5: The Gray Chapter</column>
+            <column name="songs">The Burden</column>
+            <column name="path">&lt;source src='songs/.5/16.mp3' type='audio/mpeg'&gt;</column>
+        </table>
+    </database>
+</pma_xml_export>
