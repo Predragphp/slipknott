@@ -4,4 +4,4 @@ site is made juste for music ithere is some text that i thout to put dinamic but
 
 name of DB is id985425_slipknot.xml 
 
-you can chack site at https://slipknott.000webhostapp.com or wew.host56.com
+you can chack site at https://slipknott.000webhostapp.com or https://wew.host56.com
